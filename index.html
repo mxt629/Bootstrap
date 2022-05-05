@@ -196,11 +196,30 @@
         <h1 class="text-center">Subscribe</h1>
         <p class="text-center"> Receive notifications about news information of Work Art</p>
         <div class="form">
-            <input type="email" class="form-control form-control-lg" placeholder="Enter your Email to Subscribe" name="email">
+            <input type="email" class="form-control form-control-lg" placeholder="Enter your Email to Subscribe" name="email" onclick="">
         </div>
-        <button type="button" class="btn btn-primary btn-lg">Subscribe</button>
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalSub">Subscribe</button>
+        <div class="modal fade" id="modalSub" tabindex="-1" aria-labelledby="modalSubLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalSubLabel">Completed</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Thank you to Subscribe!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+
+
 <!--Footer-->
 <footer class="footer footer-expand-lg footer-dark bg-dark ">
     <div class="footer-text">
