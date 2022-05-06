@@ -17,13 +17,13 @@ html, body {
     width: 100%;
 }
 .navbar li a {
-    color: antiquewhite !important;
+    color: #000000   !important;
 }
 .navbar li a:hover {
-    color: black !important;
+    color: #cccccc !important;
 }
 .navbar-icon i:hover{
-    color: #FFFFFF!important;
+    cursor: pointer;
     padding: 5px;
 }
 .carousel img {
